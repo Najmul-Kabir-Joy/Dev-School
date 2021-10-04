@@ -1,0 +1,26 @@
+.us-key-point{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 4em;
+}
+.icon-text{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+.cols{
+    display: flex;
+    justify-content: center;
+}

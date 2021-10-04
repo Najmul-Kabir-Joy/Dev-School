@@ -1,0 +1,37 @@
+.quote{
+    font-size: 1.5em;
+}
+.quote::before{
+    content: open-quote;
+    font-size: 2rem;    
+}
+.quote::after{
+    content: close-quote;
+    font-size: 2rem;    
+}
+.description{
+    padding: 20px 100px;
+    font-size: 1.2em;
+}
+.element{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    border-bottom: 2px solid white;
+}
+
+.element-image img{
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+}
+.element-description{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+}
+.element-description p{
+    font-size: 1.4em;
+}

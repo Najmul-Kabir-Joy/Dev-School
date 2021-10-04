@@ -1,0 +1,21 @@
+.contactus-banner img{
+    height: 300px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.table-container{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5em;
+}

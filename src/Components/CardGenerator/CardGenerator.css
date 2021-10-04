@@ -1,0 +1,11 @@
+.card{
+    border-radius: 20px;
+}
+.banner-img{
+    height: 250px;
+    width: 99%;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px;
+}
