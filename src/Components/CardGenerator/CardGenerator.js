@@ -2,9 +2,10 @@ import React from 'react';
 import './CardGenerator.css'
 import { Card, Col, Table, Button } from 'react-bootstrap';
 import Rating from 'react-rating';
+import enrolClick from '../Utilities/EnrollHandler';
 
 const CardGenerator = (props) => {
-    const { coursename, enrolled, banner, price, rating, duration, exam, certificate } = props.service;
+    const { id, coursename, enrolled, banner, price, rating, duration, exam, certificate } = props.service;
     return (
         <div>
             <Col>
@@ -47,7 +48,7 @@ const CardGenerator = (props) => {
                                     </tr>
                                 </tbody>
                             </Table>
-                            <Button variant="light" className='d-block mx-auto fw-bold'>Enroll Now</Button>
+                            <Button onClick={() => enrolClick(id)} variant="light" className='d-block mx-auto fw-bold'>Enroll Now</Button>
 
                         </Card.Text>
                     </Card.Body>

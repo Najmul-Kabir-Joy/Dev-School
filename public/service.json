@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "coursename": "JavaScript Crash Course",
+        "coursename": "JS Crash Course",
         "enrolled": "110",
         "banner": "https://html5hive.org/wp-content/uploads/2014/06/js_800x800.jpg",
         "price": "$1000",

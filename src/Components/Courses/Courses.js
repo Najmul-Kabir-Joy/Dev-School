@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FormControl, InputGroup, Row, Button } from 'react-bootstrap';
 import CardGenerator from '../CardGenerator/CardGenerator';
 
-const Courses = () => {
+const Courses = (props) => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./service.json')
@@ -26,7 +26,7 @@ const Courses = () => {
             </InputGroup>
             <Row xs={1} md={4} className="g-4 p-4">
                 {
-                    services.map(service => <CardGenerator service={service} key={service.id} ></CardGenerator>)
+                    services.map(service => <CardGenerator service={service} key={service.id}></CardGenerator>)
                 }
             </Row>
         </div>
