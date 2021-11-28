@@ -1,8 +1,8 @@
 # Dev School by Najmul Kabir
 ### Features
 * Landing Page 
-* SPA
-* Enroll to course
+* No reload
+* View courses
 * Cart update on refresh
 
 ### Cons
